@@ -1,50 +1,50 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Online grocery",
+    "imageSrc": "projects/res.png",
+    "description": "This is a fullstack online grocery website .",
+    "skills": ["React","stripe", "Express", "Node"],
+    "demo": "https://restserver-21f0a.web.app/",
+    "source": "https://github.com/munir79/OnLine-Grocery-Platform"
+  },
+  {
+    "title": "E-commerce",
+    "imageSrc": "projects/furniflex.png",
+    "description": "This is a E-commerce website(furniture related).",
+    "skills": ["React",  "Node", "tailwind"],
     "demo": "https://furniflex-de7b2.web.app/",
-    "source": "https://www.github.com"
+    "source": "https://github.com/munir79/FurniFlex"
+  },
+  {
+    "title": "E-commerce",
+    "imageSrc": "projects/ecom.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Html", "css", "Bootstrap"],
+    "demo": "https://amazing-dolphin-434bfb.netlify.app/",
+    "source": "https://github.com/munir79/e-commerce"
+  },
+  {
+    "title": "rest country",
+    "imageSrc": "projects/rest.png",
+    "description": "This project allows users to explore data from over 250 countries with key .",
+    "skills": ["React",  "Tailwind"],
+    "demo": "https://restcountry79.netlify.app/",
+    "source": "https://github.com/munir79/rest-country"
+  },
+  {
+    "title": "Best Five Player",
+    "imageSrc": "projects/five.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["Html", "Css", "Dom"],
+    "demo": "https://keen-cendol-209319.netlify.app/",
+    "source": "https://github.com/munir79/best-five--Player"
   },
   {
     "title": "Project B",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    
     "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "",
+    "source": ""
   }
 ]
