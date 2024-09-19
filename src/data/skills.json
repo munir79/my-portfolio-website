@@ -28,6 +28,10 @@
     "imageSrc": "skills/mongodb.png"
   },
   {
+    "title": "firebase",
+    "imageSrc": "skills/firebase.png"
+  },
+  {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
   }
