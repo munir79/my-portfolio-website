@@ -6,6 +6,9 @@ import profile from '../../../assets/hero/pic.jpg'
 import profile1 from '../../../assets/hero/soQBmgWt.png'
 
 export const Hero = () => {
+  const handleContactClick = () => {
+    window.location.href = "mailto:your-jakirhossainmunir79@gmail.com?subject=Contact&body=Hello!";
+  };
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -14,9 +17,11 @@ export const Hero = () => {
           I'm a full-stack developer with 1 years of experience using React and
           NodeJS. Reach out if you'd like to learn more!
         </p>
-        <a href="https://www.linkedin.com/in/jakir-hossain-munir-93212a21a/" className={styles.contactBtn}>
+       <button  onClick={handleContactClick} className={styles.contactBtn}>
+        
           Contact Me
-        </a>
+       
+       </button>
       </div>
       <img 
       

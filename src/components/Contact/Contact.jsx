@@ -4,6 +4,9 @@ import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
+  const handleContactClick = () => {
+    window.location.href = "mailto:your-jakirhossainmunir79@gmail.com?subject=Contact&body=Hello!";
+  };
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -22,11 +25,11 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://github.com/munir79">github</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="">jakirhossainmunir79@gmail.com</a>
+          <a    onClick={handleContactClick}  href="">jakirhossainmunir79@gmail.com</a>
         </li>
       </ul>
     </footer>
